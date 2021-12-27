@@ -1,0 +1,89 @@
+@import url("https:fonts.googleapis.com.css2?family=Nunito&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://i.ibb.co/rGvswVq/burgerfries.jpg") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #ffc23e;
+  margin: 1.2em;
+  font-size: 1.5em;
+  height: 70px;
+  letter-spacing: 2px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin: 1.4em;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #ffc23e;
+  padding-right: 1em;
+  margin: 1em;
+}
+
+.nav li a:hover {
+  color: #f75a5a;
+}
+
+header {
+  color: #ffc23e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 220px auto;
+}
+
+h1 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  margin-bottom: 0.2em;
+}
+
+p {
+  color: #f75a5a;
+  font-size: 1.3em;
+  margin-bottom: 1.4em;
+}
+
+button {
+  padding: 12px 40px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  border: none;
+  background: #b67c0079;
+  color: #fff;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+button:hover {
+  background: #ff010152;
+}
